@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <div class="bigbox">
+        <ul id="ulBox">
+                    
+        </ul>
+    
+    
+        <div class="oper">
+            <p>最高分：<span id="max">0</span></p>
+            <p>当前得分：<span id="now">0</span></p>
+            <select name="" id="level">
+                <option value="500">简单</option>
+                <option value="300">中等</option>
+                <option value="200">困难</option>
+            </select>
+            <input type="button" id="start" value="START">
+            <input type="button" id="timeOut" value="TIME OUT">
+        </div>
+    </div>
+    <audio src="mp3/bgm.mp3" loop id="bgm"/>
+    <audio src="mp3/eat.mp3" id="eat"/>
+    <audio src="mp3/dead.wav" id="dead"/>
+
+    <script type="text/javascript" src="js/js.js"></script>  
+    <!-- <script>
+        var ulBox = document.getElementById("ulBox");
+        // var str="";
+        // for(var i=0;i<400;i++){
+        //     str+="<li></li>"
+        // }
+        // ulBox.innerHTML=str;
+        var frag=document.createDocumentFragment();
+        for(var i=0;i<400;i++){
+            var lidom=document.createElement("li");
+            frag.appendChild(lidom);
+        }
+        ulBox.appendChild(frag)
+    </script> -->
+</body>
+</html>
