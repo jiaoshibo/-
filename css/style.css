@@ -36,8 +36,9 @@ li{
     width: 80px;
     height: 40px;
     border: 0;
-    background: #111578;
+    background: #151BA4;
     color: #fff;
     border-radius: 30px;
     box-shadow: 2px 3px 3px rgba(0,0,0,0.5);
+    outline: none;
 }
